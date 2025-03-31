@@ -50,4 +50,17 @@ fn main() {
     // 报错。`Debug` 和 `Display` 都被实现了，但 `{:b}` 需要 `fmt::Binary`
     // 得到实现。这语句不能运行。
     // println!("What does Point2D look like in binary: {:b}?", point);
+    let foo = 3735928559u32;
+
+    println!("{}", foo);
+    println!("0x{:X}", foo);
+    println!("0x{:x}", foo);
+    println!("0o{:o}", foo);
+    println!("{:b}", foo);
+    println!("{:e}", foo);
+    println!("{:E}", foo);
+    println!("{:p}", &foo);
+    println!("{:o}", &foo);
+
+
 }
