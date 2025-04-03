@@ -14,4 +14,11 @@ fn main() {
     };
 
     println!("Matched characters: {}", result);
+
+    // Uncommenting the following lines will cause a compilation error
+    // let x: u32 = -200;
+    // println!("x = {}", x);
+
+    
+
 }

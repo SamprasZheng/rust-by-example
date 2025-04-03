@@ -1,6 +1,6 @@
 
 git add .
-git commit -m "data w/ rust "
+git commit -m "update more examples "
 git push
 
 cargo new
