@@ -1,7 +1,9 @@
 
 git add .
-git commit -m "init some resources"
+git commit -m "update primitives"
 git push
 
 cargo new
 cargo run
+
+rustc hello.rs
